@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar01</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4 font-weight-light me-auto" href="#">Logo</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2 active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2" href="#">Portifolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-md-2" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-success login-button text-light fs-5 rounded-5 py-1 px-4 text-decoration-none">Login</a>
+            <button class="navbar-toggler border-0 fs-4 shadow-none pe-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </nav>
+</body>
+
+</html>
