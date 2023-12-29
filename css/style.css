@@ -37,15 +37,19 @@
     width: 160px;
 }
 
-.card {
+.cards-second-section .card {
     width: 18rem;
     height: 23rem;
     border: 1px solid rgb(148, 148, 148);
 }
-
-.third-session {
-    background-color: #f3bb5bbb;
+/* .cards-sixth-section .card {
+    width: 22rem;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+} */
+.third-session, .Seventh-session {
+    background-color: #f3bb5ba6;
 }
+
 
 
 @media (min-width: 991px) {
