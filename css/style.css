@@ -17,6 +17,10 @@
     text-decoration: none;
     transition: 0.3s background-color;
 }
+.btn a {
+    color: #f3f5f6;
+    text-decoration: none;
+}
 
 .btn:hover {
     background-color: #9886ff;
@@ -42,7 +46,9 @@
     height: 23rem;
     border: 1px solid rgb(148, 148, 148);
 }
-
+.border-line-card {
+    border: 1px solid rgb(148, 148, 148);
+}
 
 .third-session, .Seventh-session {
     background-color: #f3bb5ba6;
@@ -52,6 +58,10 @@
     background-color: rgb(83, 83, 83);
     color: white;
 }
+footer {
+    background-color:#333333;
+}
+
 
 @media (min-width: 991px) {
 
