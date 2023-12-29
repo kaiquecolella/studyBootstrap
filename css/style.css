@@ -17,15 +17,14 @@
     text-decoration: none;
     transition: 0.3s background-color;
 }
-.btn a {
-    color: #f3f5f6;
-    text-decoration: none;
-}
+
+
 
 .btn:hover {
     background-color: #9886ff;
     color: #f3f5f6;
 }
+
 
 .nav-link {
     color: grey;
@@ -53,6 +52,7 @@
 .third-session, .Seventh-session {
     background-color: #f3bb5ba6;
 }
+
 
 .contact-section {
     background-color: rgb(83, 83, 83);
