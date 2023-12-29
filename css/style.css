@@ -29,7 +29,7 @@
     position: relative;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover {
     color: #000;
 }
 .btn.d-lg-none.d-block {
@@ -42,15 +42,16 @@
     height: 23rem;
     border: 1px solid rgb(148, 148, 148);
 }
-/* .cards-sixth-section .card {
-    width: 22rem;
-    border: 1px solid rgba(0, 0, 0, 0.425);
-} */
+
+
 .third-session, .Seventh-session {
     background-color: #f3bb5ba6;
 }
 
-
+.contact-section {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
 
 @media (min-width: 991px) {
 
@@ -67,7 +68,7 @@
         transition: 0.3s ease-in-out;
     }
 
-    .nav-link:hover::before, .nav-link.active::before {
+    .nav-link:hover::before {
         width: 90%;
         visibility: visible;
     }
