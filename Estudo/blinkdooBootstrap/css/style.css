@@ -37,6 +37,16 @@
     width: 160px;
 }
 
+.card {
+    width: 18rem;
+    height: 23rem;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.third-session {
+    background-color: #f3bb5bbb;
+}
+
 
 @media (min-width: 991px) {
 
